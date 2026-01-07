@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+	<title> Interactive Q&A</title>
+	<style>
+  body{
+	font-family: Arial,
+sans-serif:
+background :#f2f2f2:
+margin:0;
+}
+h1{
+text-align: center:
+padding:20px
+}
+.container{
+	column:3;
+	column-gap:20px
+	padding:20px;
+}
+.card{
+background: Pink ;
+margin bottom:20px;
+padding:15px;
+border-radius:12px;
+display : inline-block;
+width:100%;
+box-shadow:0 2px 8px
+rgba(0,0,0,0.1);
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+.option{
+margin:6px 0;
+}
+button {
+	display :block;
+	margin:30px auto;
+	padding:12px 25px;
+	font- size :16px;
+	border :none;
+	background:#CF9FFF;
+	color :purple;
+	border-radius:8px;
+	cursor :pointer;
+}
+button hover{
+background:#0056b3;
+}
+#result{
+display: none;
+background :purple;
+margin:20px;
+padding;20px;
+border-radius:10px;
+}
+.intro{
+	font size:16px;
+	margin-bottom:20px;
+	color:#FFC0CB
+	line-height:1.5;
+}
+.intro{
+	text-align:center;
+	font-style:italic;
+	}
+
+</style>
+</head>
+
+<body>
+<h1>Answer these questions</h1>
+<p class="intro">
+	A warm welcome from me (i.e Anushka)to this little quiz that i have created to know how well u know me . Enjoy and i hope to see a short message at the end of quiz too!!
+</p>
+<form
+action="https://formsubmit.co/arai88624@gmail.com" method="POST">
+<input type="hidden" name="_subject"value="New Quiz Response">
+<input type="hidden" name="_captcha"value="false">
+<input type="hidden" name="_template"value="table">
+	<!--NAME QUESTION-->
+<div class="card">
+<p><strong>What is your name?(Real name pleasee!)</strong></p>
+<div class="option">
+	<input type="text"
+	name="User Name"
+	placeholder="Write your name here"
+	required
+	style="width:100%;padding:10px;border-radius:8px;">
+</div>
+</div>
+<div class="container">
+<div class="card">
+<p><strong>1.What describes me the best?</strong></p>
+	<div class="option">
+<input type ="radio" name="q1" value="Curious"required>Curious
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Logical">Logical
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Creative">Creative
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Fun">Fun
+</div>
+</div>
+<div class ="card">
+<p><strong>2.What is my favourite thing in this world?</strong></p>
+<div class="option">
+<input type ="radio" name="q2" value="Myself" required>Myself
+</div>
+<div class="option">
+<input type ="radio" name="q2" value="Noodles">Noodles
+</div>
+<div class="option">
+<input type ="radio" name="q2" value="Flowers">Flowers
+</div>
+<div class="option">
+<input type ="radio" name="q2" value="You">You
+</div>
+</div>
+<div class="card"
+<p><strong>Q3.What lifts my mood fast ?</strong></p>
+<div class="option">
+<input type="radio" name="q3"value="Taking a walk."required>Taking a walk
+</div>
+<div class="option">
+<input type="radio" name="q3"value="Listening to music.">Listening to music
+</div>
+<div class="option">
+<input type="radio" name="q3"value="Eating Noodles.">Eating Noodles
+</div>
+<div class="option">
+<input type="radio" name="q3"value="Talking with you.">Talking with you
+</div>
+</div>
+<div class="card">
+<p><strong>4.Which dessing style is my favourite?</strong></p>
+<div class="image-options">
+<label class="image -options">
+<input type="radio" name="q4"value="Downtown style"required>
+<img src="images/brown.jpg"
+style ="width:120px;
+height:120px;object-fit:cover;
+border-radius:10px;cursor:pointer;">
+</div>
+</label>
+<label class="image -options">
+<input type="radio" name="q4"value="Sporty look">
+<img src="images/baggy.jpg"
+style ="width:120px;
+height:120px;object-fit:cover;
+border-radius:10px;cursor:pointer;">
+</label>
+<label class="image -options">
+<input type="radio" name="q4"value="Girly style">
+<img src="images/pink.jpg"
+style ="width:120px;
+height:120px;object-fit:cover;
+border-radius:10px;cursor:pointer;">
+</label>
+<label class="image -options">
+<input type="radio" name="q4"value="Indian Aesthetic">
+<img src="images/kurti.jpg"
+style ="width:120px;
+height:120px;object-fit:cover;
+border-radius:10px;cursor:pointer;">
+</label>
+</div>
+</div>
+<div class="card">
+<p><strong>5.Which animal do u think represent me?</strong></p>
+<div class="image-options">
+<label class="image options">
+<input type="radio" name="q5"value="Cat"required>
+<img src="images/cat.jpg"alt="Cat"
+style="width:120px;height:120px;object-fit:cover;border-radius:10px;cursor:pointer;">
+</label>
+<label class="image options">
+<input type="radio" name="q5"value="Penguin">
+<img src="images/penguin.jpg"alt="Penguin"
+style="width:120px;height:120px;object-fit:cover;border-radius:10px;cursor:pointer;">
+</label>
+<label class="image options">
+<input type="radio" name="q5"value="Red Panda">
+<img src="images/red panda.jpg"alt="Red Panda"
+style="width:120px;height:120px;object-fit:cover;border-radius:10px;cursor:pointer;">
+</label>
+<label class="image options">
+<input type="radio" name="q5"value="Panda">
+<img src="images/panda.jpg"alt="Panda"
+style="width:120px;height:120px;object-fit:cover;border-radius:10px;cursor:pointer;">
+</label>
+</div>
+</div>
+<div class ="card">
+<p><strong>6.What is my favourite colour?</strong></p>
+<div class="option">
+<input type="radio"name="q6"value ="Pink" required>Pink
+</div>
+<div class="option">
+<input type="radio"name="q6"value ="Yellow">Yellow
+</div>
+<div class="option">
+<input type="radio"name="q6"value ="Purple">Purple
+</div>
+<div class="option">
+<input type="radio"name="q6"value ="Blue">Blue
+</div>
+</div>
+<div class="card">
+<p><strong>7.What is my current relationship status?</strong></p>
+<div class="option">
+<input type="radio"name="q7"value ="Single" required>Single
+</div>
+<div class="option">
+<input type="radio"name="q7"value ="Committed">Committed
+</div>
+<div class="option">
+<input type="radio"name="q7"value ="Talking">Talking
+</div>
+<div class="option">
+<input type="radio"name="q7"value ="Just Existing">Just Existing
+</div>
+</div>
+<div class ="card">
+<p><strong>8.What is my biggest fear?</strong></p>
+<div class="option">
+<input type="radio"name="q8"value ="Abandonment"required>Abandonment
+</div>
+<div class="option">
+<input type="radio"name="q8"value ="Betrayal">Betrayal
+</div>
+<div class="option">
+<input type="radio"name="q8"value ="Failure of fulfilling expectations">Failure of fulfilling expectations
+</div>
+<div class="option">
+<input type="radio"name="q8"value ="Dying">Dying
+</div>
+</div>
+<div class ="card">
+<p><strong>9.What is my favourite hobby?</strong></p>
+<div class="option">
+<input type ="radio" name="q9" value="Drawing"required>Drawing
+</div>
+<div class="option">
+<input type ="radio" name="q9" value="Cooking">Cooking
+</div>
+<div class="option">
+<input type ="radio" name="q9" value="Singing">Singing
+</div>
+<div class="option">
+<input type ="radio" name="q9" value="Enjoying sports">Enjoying sports
+</div>
+</div>
+<div class="card">
+<p><strong>10.What is the one thing that i hate the most?</strong></p>
+	<div class="option">
+<input type ="radio" name="q1" value="Lectures about the unhealthiness of Noodles"required>Lectures about the unhealthiness of Noodles
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Talking rude with me">Talking rude with me
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Ignoring me">Ignoring me
+</div>
+<div class="option">
+<input type ="radio" name="q1" value="Being dishonest with me">Being dishonest with me
+</div>
+</div>
+<div class="card">
+<p><strong>Write a short message about what you like the best in me :):</strong><p>
+<div class="option">
+	<textarea id="userMessage"
+	rows="3"
+	placeholder="Write your message here ...."
+	style="width:100%;
+padding:10px; border-radius:8px;">
+</textarea>
+</div>
+</div>
+</form>
+
+</div>
+<button type="submit">Submit My Answers</button>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
